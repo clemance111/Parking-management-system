@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from Parking.models import Car, CarParking, Parking
+from Park.models import Car, CarParking, Parking
 from django.utils import timezone
 class CarSerializer(serializers.ModelSerializer):
     class Meta:
